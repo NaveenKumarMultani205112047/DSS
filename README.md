@@ -55,7 +55,7 @@ How to install:
   
 How to use it:
 
-  Step 1. If it is Delta host(INTRANET) type delta.nitt.edu/DSS in URL else www.youhost.com/DSS.
+  Step 1. If it is Delta host(INTRANET) type delta.nitt.edu/DSS in URL else www.yourhost.com/DSS.
   
   step 2. Register and then Login (for administrator Login as "admin" and password is "admin").
   
