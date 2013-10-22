@@ -156,7 +156,7 @@ if ($dir = @opendir($path)) {
 <table width="600"  border="0" align="center" cellpadding="0" cellspacing="0">
 	<tr>
 	<td valign="top">&nbsp;</td>
-      <td width="150" valign="top"><div align="right"><span class="style13"> <a href="log.txt" target="_blank" class="style13">LOG</a></span></div></td>
+      <td width="150" valign="top"><div align="right"><span class="style13"> <?php if(isset($_SESSION['ok']) && $_SESSION['uname']=='admin') echo '<a href="log.txt" target="_blank" class="style13">LOG</a>' ;?></span></div></td>
     </tr>
 </table>
   <table width="600" border="0" align="center" cellpadding="2" cellspacing="1">
