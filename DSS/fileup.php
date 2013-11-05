@@ -1,4 +1,3 @@
-
 <?php require_once('include/config.php'); ?>
 <?php require_once('include/ls_func.php'); ?>
 <?php  $cam = "";
@@ -14,4 +13,5 @@ print("<center><b>ERROR NO SE PUEDE COPIAR EL ARCHIVO</b></center>");
 }else{
 header("Location: index.php".$cam);
 }
+
 ?>
