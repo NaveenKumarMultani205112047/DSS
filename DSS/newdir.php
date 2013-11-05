@@ -14,3 +14,5 @@ if (isset($_GET['folname']))
 header("Location: index.php?cam=".$ncam);
 
 ?>
+
+
