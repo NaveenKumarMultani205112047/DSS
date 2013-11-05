@@ -19,6 +19,7 @@ function deleteDir($dir)
                {
                    if (!unlink($dir.$obj))
                        return false;
+                       
                }
            }
        }
