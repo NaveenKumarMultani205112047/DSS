@@ -1,7 +1,8 @@
 <?php
 function deleteDir($dir)
-{
-   if (substr($dir, strlen($dir)-1, 1) != '/')
+{ 
+   
+    if (substr($dir, strlen($dir)-1, 1) != '/')
        $dir .= '/';
    if ($handle = opendir($dir))
    {
