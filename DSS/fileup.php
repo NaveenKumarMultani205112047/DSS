@@ -14,4 +14,5 @@ print("<center><b>ERROR NO SE PUEDE COPIAR EL ARCHIVO</b></center>");
 header("Location: index.php".$cam);
 }
 
+
 ?>
